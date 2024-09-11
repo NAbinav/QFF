@@ -5,7 +5,7 @@ import { motion, spring } from "framer-motion";
 export default function Home() {
   return (
     <motion.div
-      className="fixed"
+      className=""
       initial={{ x: "-100%", filter: "blur(10px)" }}
       animate={{ x: "0", filter: "blur(0px)" }}
       transition={spring}
