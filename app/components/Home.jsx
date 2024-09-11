@@ -1,5 +1,4 @@
 "use client";
-import { type } from "os";
 import Typed from "../components/Typing";
 import { motion, spring } from "framer-motion";
 
