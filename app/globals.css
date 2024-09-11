@@ -22,9 +22,10 @@ ul{
 li{
   cursor: pointer;
   padding: 10px;
+  transition: transform 200ms;
 }
 li:hover{
-  border: 1px solid white;
+  transform: translateY(-5px);
 }
 ul .Logo{
   position: absolute;
