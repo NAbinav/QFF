@@ -2,7 +2,7 @@ import React from "react";
 import Home from "@/app/components/Home";
 const page = () => {
   return (
-    <div>
+    <div className="sm:text-xs">
       <Home></Home>
     </div>
   );

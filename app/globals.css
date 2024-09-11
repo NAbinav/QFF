@@ -29,10 +29,8 @@ li{
   transition: transform 200ms;
 }
 li:hover{
-  color: rgb(0 0 0 / 10%);
-  background: linear-gradient(120deg,rgb(61, 107, 255),rgba(255, 56, 212, 0.97));
   background-clip: text;
-  transform: translateY(-5px);
+  transform: translateY(-0px);
 }
 ul .Logo{
   position: absolute;

@@ -22,7 +22,7 @@ export default function Typing() {
   }, []);
 
   return (
-    <div className="text-3xl">
+    <div className="text-3xl  max-sm:2xl">
       <span>We conduct workshop on Quantum </span>
       <span className="typing" ref={typedElement} />
     </div>
