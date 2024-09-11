@@ -12,6 +12,12 @@ body {
   background-color: black;
   color: white;
 }
+.heading{
+  color: rgb(0 0 0 / 10%);
+  background: linear-gradient(120deg,rgb(61, 107, 255),rgba(255, 56, 212, 0.97));
+  background-clip: text;
+  font-weight: bold;
+}
 .Navbar{
   position: fixed;
   z-index: 999;
