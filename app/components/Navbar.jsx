@@ -36,6 +36,7 @@ const Navbar = () => {
           <li className="ele text-cyan-50">
             {menu ? (
               <RiCloseFill
+                className="text-4xl"
                 onClick={() => {
                   setmenu(!menu);
                   console.log(menu);
@@ -43,6 +44,7 @@ const Navbar = () => {
               />
             ) : (
               <MdMenu
+                className="text-4xl"
                 onClick={() => {
                   setmenu(!menu);
                   console.log(menu);
