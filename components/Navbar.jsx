@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import Logo from "../../public/Logo Q Black.png";
+import Logo from "../public/Logo Q Black.png";
 import Image from "next/image";
 import { MdMenu } from "react-icons/md";
 import { RiCloseFill } from "react-icons/ri";

@@ -150,6 +150,11 @@ li:nth-child(2n) .card{
   font-weight: 300;
   background: rgba(255, 255, 255, 0.416);
 }
+.dialogue{
+  background: linear-gradient(120deg,rgba(61, 106, 255, 0.24),rgba(255, 56, 212, 0.263));
+  backdrop-filter: blur(10px);
+  z-index: 999;
+}
 @media only screen and (max-width: 640px) {
   /* For mobile phones: */
   li:hover{
@@ -173,7 +178,7 @@ li::before{
   border-color: white;
   backdrop-filter: blur(10px);
   transform: translate(185px,85px);
-  z-index: 999;
+  z-index: 0;
 } 
 
 li::after{

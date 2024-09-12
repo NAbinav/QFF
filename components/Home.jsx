@@ -1,5 +1,5 @@
 "use client";
-import Typed from "../components/Typing";
+import Typed from "./Typing";
 import { motion, spring } from "framer-motion";
 
 export default function Home() {
