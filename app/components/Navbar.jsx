@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <>
       <div className="hidden sm:block overflow-hidden">
-        <div className="ul">
+        <div className="ul font-light">
           <div className="ele Logo  li">
             <Image src={Logo} height={100} width={100}></Image>
           </div>
@@ -53,7 +53,7 @@ const Navbar = () => {
             )}
           </div>
         </ul>
-        <ul className={cl}>
+        <ul className={cl + "font-light"}>
           <div className="ele li">
             <a href="#home">Home</a>
           </div>
@@ -71,5 +71,4 @@ const Navbar = () => {
     </>
   );
 };
-
 export default Navbar;
