@@ -49,6 +49,7 @@ body {
   left: 0px;
   transform: translateY(-50%);
   margin: 20px;
+  margin-top: 30px;
 }
 .typing{
   font-weight: 700;
