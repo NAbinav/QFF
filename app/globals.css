@@ -49,7 +49,7 @@ body {
   left: 0px;
   transform: translateY(-50%);
   margin: 20px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 .typing{
   font-weight: 700;
@@ -70,6 +70,7 @@ body {
 .box{
   align-items: center;
   margin: 5px;
+  margin-top: 20px;
   border: 1px solid white;
   border-radius: 10px;
   background-color:rgba(255 ,255, 255 ,0.05) ;
@@ -133,6 +134,10 @@ li:nth-child(2n+1) .card{
 
 li:nth-child(2n) .card{
   transform: translateX(70%);
+}
+.card:hover{
+  box-shadow:  4px 1px 40px rgba(61, 106, 255, 0.65), -7px -10px 40px rgba(255, 56, 212, 0.55);
+  -webkit-: 70%;
 }
 .more{
   background: rgba(255, 255, 255, 0.116);

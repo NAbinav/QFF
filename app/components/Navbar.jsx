@@ -6,7 +6,7 @@ import { MdMenu } from "react-icons/md";
 import { RiCloseFill } from "react-icons/ri";
 const Navbar = () => {
   const [menu, setmenu] = useState(false);
-  const cl = menu ? "display box flex-col " : "hidden flex-col";
+  const cl = menu ? "display  box flex-col " : "hidden flex-col";
   return (
     <>
       <div className="hidden sm:block overflow-hidden">
@@ -33,7 +33,7 @@ const Navbar = () => {
           <div className="ele Logo">
             <Image src={Logo} height={75} width={75}></Image>
           </div>
-          <div className="ele">
+          <div className="ele  m-5">
             {menu ? (
               <RiCloseFill
                 className="text-4xl absolute right-2 z-50"
