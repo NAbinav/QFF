@@ -6,37 +6,37 @@ import { MdMenu } from "react-icons/md";
 import { RiCloseFill } from "react-icons/ri";
 const Navbar = () => {
   const [menu, setmenu] = useState(false);
-  const cl = menu ? "display box flex-col" : "hidden flex-col";
+  const cl = menu ? "display box flex-col " : "hidden flex-col";
   return (
     <>
-      <div className="Nav bodoni-moda hidden sm:block">
-        <ul>
-          <li className="ele Logo ">
+      <div className="hidden sm:block overflow-hidden">
+        <div className="ul">
+          <div className="ele Logo  li">
             <Image src={Logo} height={100} width={100}></Image>
-          </li>
-          <li className="ele ">
-            <p>Home</p>
-          </li>
-          <li className="ele">
-            <p>Event</p>
-          </li>
-          <li className="ele">
-            <p>Sponsers</p>
-          </li>
-          <li className="ele">
+          </div>
+          <div className="ele li">
+            <a href="#home">Home</a>
+          </div>
+          <div className="ele li">
+            <a href="#events">Event</a>
+          </div>
+          <div className="ele li">
+            <a href="">Sponsers</a>
+          </div>
+          <div className="ele li">
             <a href="https://vitchennaievents.com/">Register</a>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
-      <div className="Nav block sm:hidden">
+      <div className=" Navbar block justify-evenly sm:hidden">
         <ul>
-          <li className="ele Logo ">
+          <div className="ele Logo">
             <Image src={Logo} height={75} width={75}></Image>
-          </li>
-          <li className="ele text-cyan-50">
+          </div>
+          <div className="ele">
             {menu ? (
               <RiCloseFill
-                className="text-4xl"
+                className="text-4xl absolute right-2 z-50"
                 onClick={() => {
                   setmenu(!menu);
                   console.log(menu);
@@ -44,28 +44,28 @@ const Navbar = () => {
               />
             ) : (
               <MdMenu
-                className="text-4xl"
+                className="text-4xl absolute right-2 z-50"
                 onClick={() => {
                   setmenu(!menu);
                   console.log(menu);
                 }}
               />
             )}
-          </li>
+          </div>
         </ul>
         <ul className={cl}>
-          <li className="ele">
-            <p>Home</p>
-          </li>
-          <li className="ele">
-            <p>Event</p>
-          </li>
-          <li className="ele">
-            <p>Sponsers</p>
-          </li>
-          <li className="ele">
+          <div className="ele li">
+            <a href="#home">Home</a>
+          </div>
+          <div className="ele li ">
+            <a href="#events">Event</a>
+          </div>
+          <div className="ele li">
+            <a href="">Sponsers</a>
+          </div>
+          <div className="ele">
             <a href="https://vitchennaievents.com/">Register</a>
-          </li>
+          </div>
         </ul>
       </div>
     </>
