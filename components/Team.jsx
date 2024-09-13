@@ -11,7 +11,6 @@ const Team = () => {
           props={{
             name: "Kailash Shankar",
             dept: "Designing Lead",
-            branch: "ECM",
             profile: p1,
           }}
         />
@@ -26,9 +25,8 @@ const Team = () => {
       <div>
         <Profile
           props={{
-            name: "Kailash Shankar",
-            dept: "Designing Lead",
-            branch: "ECM",
+            name: "Rithika",
+            dept: "Vice Captain",
             profile: p1,
           }}
         />
@@ -36,7 +34,6 @@ const Team = () => {
           props={{
             name: "Abinav N",
             dept: "Web Developer",
-            branch: "ECM",
             profile: p1,
           }}
         />

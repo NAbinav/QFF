@@ -6,10 +6,15 @@ import About from "@/components/about";
 const page = () => {
   return (
     <div className="sm:text-xs flex flex-col gap-40" id="home">
-      <Home></Home>
+      <div className="h-full snap-center items-start justify-center">
+        <Home />
+      </div>
       <About />
-      <div className="flex justify-center my-10" id="events">
-        <Card></Card>
+      <div className="flex gap-10 flex-col justify-center my-10" id="events">
+        <p className="text-6xl p-10 heading">ABOUT THE EVENT</p>
+        <div className="flex justify-center">
+          <Card />
+        </div>
       </div>
       <div className="flex justify-center my-10" id="">
         <Team />
