@@ -5,7 +5,7 @@ import { SiQiskit } from "react-icons/si";
 
 const About = () => {
   return (
-    <div className=" " id="about">
+    <div className=" flex flex-col gap-10" id="about">
       <div className="flex justify-around snap-center align-middle max-sm:flex-col">
         <Image src={Club} className="h-72 w-72 max-sm:w-40 max-sm:h-40"></Image>
         <div className="m-4 max-w-[70%]">
