@@ -4,7 +4,7 @@ const one = () => {
   return (
     <Dialog>
       <DialogTrigger>
-        <a className="more text-base translate-y-2">More Details</a>
+        <a className="more text-base translate-y-6">More Details</a>
       </DialogTrigger>
       <DialogContent className="dialogue text-base">
         <div>VENUE : Online - MS Teams</div>

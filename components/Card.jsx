@@ -1,6 +1,8 @@
 import React from "react";
 import One from "./one";
 import Two from "./two";
+import Three from "./three";
+import Four from "./four";
 const Card = () => {
   return (
     <div className="">
@@ -11,7 +13,9 @@ const Card = () => {
             <p className="text-lg">
               <span className="heading">Venue:</span> AB1 Nethaji Auditorium
             </p>
-            <One></One>
+            <div className="p-2 m-2">
+              <One />
+            </div>
           </div>
         </li>
         <li>
@@ -20,7 +24,9 @@ const Card = () => {
             <p className="text-lg">
               <span className="heading">Venue:</span> Online - MS Teams
             </p>
-            <Two></Two>
+            <div className="p-2 m-2">
+              <Two />
+            </div>
           </div>
         </li>
         <li>
@@ -29,7 +35,9 @@ const Card = () => {
             <p className="text-lg">
               <span className="heading">Venue:</span> AB1 Nethaji Auditorium
             </p>
-            <button className="text-lg more">More details</button>
+            <div className="p-2 m-2">
+              <Three />
+            </div>
           </div>
         </li>
         <li>
@@ -38,7 +46,9 @@ const Card = () => {
             <p className="text-lg">
               <span className="heading">Venue:</span> Kasturba Auditorium
             </p>
-            <button className="text-lg more">More details</button>
+            <div className="p-2 m-2">
+              <Four />
+            </div>
           </div>
         </li>
       </ul>

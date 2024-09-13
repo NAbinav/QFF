@@ -155,6 +155,14 @@ li:nth-child(2n) .card{
   backdrop-filter: blur(10px);
   z-index: 999;
 }
+.profilecard{
+  display: flex;
+    flex-direction: col;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
 @media only screen and (max-width: 640px) {
   /* For mobile phones: */
   li:hover{
