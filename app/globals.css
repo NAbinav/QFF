@@ -157,10 +157,13 @@ li:nth-child(2n) .card{
 }
 .profilecard{
   display: flex;
-    flex-direction: col;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  row-gap: 10px;
+  border: 1px solid white;
+  font-weight:200;
+  letter-spacing: 0.1rem;
 
 }
 @media only screen and (max-width: 640px) {
