@@ -8,7 +8,7 @@ const Card = () => {
     <div className="">
       <ul className="eventlist">
         <li>
-          <div className=" card text-center items-center ">
+          <div className="card text-center items-center ">
             <p className="text-lg font-semibold">DAY-1 OCTOBER 1 2024</p>
             <p className="text-lg">
               <span className="heading">Venue:</span> AB1 Nethaji Auditorium
