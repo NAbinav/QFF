@@ -21,6 +21,9 @@ const Navbar = () => {
             <a href="#events">Event</a>
           </div>
           <div className="ele li">
+            <a href="#teams">Team</a>
+          </div>
+          <div className="ele li">
             <a href="">Sponsers</a>
           </div>
           <div className="ele li">
@@ -59,6 +62,9 @@ const Navbar = () => {
           </div>
           <div className="ele li ">
             <a href="#events">Event</a>
+          </div>
+          <div className="ele li">
+            <a href="#teams">Team</a>
           </div>
           <div className="ele li">
             <a href="">Sponsers</a>

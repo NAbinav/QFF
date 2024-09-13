@@ -5,6 +5,21 @@
   font-family: myFirstFont;
   src: url('./fonts/GeistVF.woff');
 }
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  background: linear-gradient(120deg,rgb(61, 107, 255),rgba(255, 56, 212, 0.97));
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(120deg,rgba(61, 106, 255, 0.612),rgba(255, 56, 212, 0.571));
+}
 *{
   scroll-behavior: smooth;
 }
