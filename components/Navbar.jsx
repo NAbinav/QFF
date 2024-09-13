@@ -1,7 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import Logo from "../public/Logo Q Black.png";
-import Image from "next/image";
 import { MdMenu } from "react-icons/md";
 import { RiCloseFill } from "react-icons/ri";
 const Navbar = () => {
@@ -10,15 +8,12 @@ const Navbar = () => {
   return (
     <>
       <div className="hidden sm:block overflow-hidden">
-        <div className="ul font-light">
-          <div className="ele Logo  li">
-            <Image src={Logo} height={100} width={100}></Image>
-          </div>
+        <div className="ul font-light backdrop-blur-sm bg-[rgb(255,255,255,0.08)] rounded-xl">
           <div className="ele li">
             <a href="#home">Home</a>
           </div>
           <div className="ele li">
-            <a href="#events">Event</a>
+            <a href="#about">About</a>
           </div>
           <div className="ele li">
             <a href="#teams">Team</a>
@@ -33,9 +28,6 @@ const Navbar = () => {
       </div>
       <div className=" Navbar block justify-evenly sm:hidden">
         <ul>
-          <div className="ele Logo">
-            <Image src={Logo} height={75} width={75}></Image>
-          </div>
           <div className="ele  m-5">
             {menu ? (
               <RiCloseFill
@@ -61,7 +53,7 @@ const Navbar = () => {
             <a href="#home">Home</a>
           </div>
           <div className="ele li ">
-            <a href="#events">Event</a>
+            <a href="#about">About</a>
           </div>
           <div className="ele li">
             <a href="#teams">Team</a>
