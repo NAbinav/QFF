@@ -4,7 +4,7 @@ import dynamic from "next/dynamic"; // Import dynamic from Next.js
 import Card from "@/components/Card";
 import Home from "@/components/Home";
 import Team from "@/components/Team";
-import About from "@/components/About";
+import About from "@/components/about";
 import Poster from "@/components/Poster";
 import "leaflet/dist/leaflet.css";
 
