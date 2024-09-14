@@ -4,6 +4,7 @@ import Home from "@/components/Home";
 import Team from "@/components/Team";
 import About from "@/components/about";
 import Poster from "@/components/Poster";
+
 const page = () => {
   return (
     <div className="sm:text-xs flex flex-col gap-40" id="home">
