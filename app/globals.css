@@ -5,6 +5,7 @@
   font-family: myFirstFont;
   src: url('./fonts/GeistVF.woff');
 }
+@import url('https://unpkg.com/leaflet@1.5.1/dist/leaflet.css');
 ::-webkit-scrollbar {
   width: 7px;
 }
@@ -182,6 +183,12 @@ li:nth-child(2n) .card{
   font-weight:200;
   letter-spacing: 0.1rem;
 
+}
+.map{
+  color: #333; text-decoration: underline; font-size: 14px; font-family: Arial, Helvetica, sans-serif; text-align: right;
+}
+.mapp{
+  color: #333; font-size: 14px; font-family: Arial, Helvetica, sans-serif; text-align: right; padding: 10px;
 }
 @media only screen and (max-width: 640px) {
   /* For mobile phones: */

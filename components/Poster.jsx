@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import poster from "../public/image.png";
+import poster from "../app/public/image.png";
 const Poster = () => {
   return (
     <div className="flex flex-col justify-center gap-5">
