@@ -1,5 +1,5 @@
 import React from "react";
-import Club from "../public/Logo Q Black.png";
+import Club from "../public/Qiskit-Logo.svg.png";
 import Image from "next/image";
 import { SiQiskit } from "react-icons/si";
 
@@ -7,7 +7,11 @@ const About = () => {
   return (
     <div className=" flex flex-col gap-10" id="about">
       <div className="flex justify-around snap-center align-middle max-sm:flex-col">
-        <Image src={Club} className="h-72 w-72 max-sm:w-40 max-sm:h-40"></Image>
+        <Image
+          src={Club}
+          alt="club"
+          className="h-72 w-72 max-sm:w-40 max-sm:h-40"
+        ></Image>
         <div className="m-4 max-w-[70%]">
           <span className="heading p-0 relative top-0 text-5xl">
             Quantumplators
