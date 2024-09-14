@@ -33,8 +33,8 @@ const Team = () => {
         />
         <Profile
           props={{
-            name: "Abinav N",
-            dept: "Web Developer",
+            name: "xxxx",
+            dept: "yyyyyy",
             profile: p1,
           }}
         />
