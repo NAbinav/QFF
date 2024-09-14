@@ -8,6 +8,7 @@ const profile = ({ props }) => {
         src={props.profile}
         height={200}
         width={200}
+        alt="poster"
       ></Image>
       <div>
         <p className="p-2 font-[400] group-hover:text-lg max-sm:group-hover:text-base transition-all duration-300">

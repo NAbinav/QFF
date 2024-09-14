@@ -3,6 +3,7 @@ import Card from "@/components/Card";
 import Home from "@/components/Home";
 import Team from "@/components/Team";
 import About from "@/components/about";
+import Poster from "@/components/Poster";
 const page = () => {
   return (
     <div className="sm:text-xs flex flex-col gap-40" id="home">
@@ -18,6 +19,10 @@ const page = () => {
       </div>
       <div className="flex justify-center my-10" id="">
         <Team />
+      </div>
+
+      <div className="flex justify-center my-10" id="">
+        <Poster />
       </div>
     </div>
   );

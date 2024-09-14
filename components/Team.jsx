@@ -2,6 +2,7 @@ import React from "react";
 import Profile from "./profile";
 import p1 from "@/public/profile1.png";
 import p2 from "@/public/profile2.jpg";
+import p3 from "@/public/profile3.png";
 
 const Team = () => {
   return (
@@ -27,7 +28,7 @@ const Team = () => {
           props={{
             name: "Rithika",
             dept: "Vice Captain",
-            profile: p1,
+            profile: p3,
           }}
         />
         <Profile
