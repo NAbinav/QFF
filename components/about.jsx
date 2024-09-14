@@ -1,5 +1,5 @@
 import React from "react";
-import Club from "../public/Qiskit-Logo.svg.png";
+import Club from "../public/Logo Q Black.png";
 import Image from "next/image";
 import { SiQiskit } from "react-icons/si";
 

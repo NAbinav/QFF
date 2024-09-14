@@ -30,6 +30,7 @@ body {
   letter-spacing: 0.06rem;
   background-color: black;
   color: white;
+  overflow-x: hidden;
 }
 .heading{
   color: rgb(0 0 0 / 10%);
@@ -233,4 +234,47 @@ li:nth-child(2n+1) .card{
 li:nth-child(2n) .card{
   transform: translateX(0%);
 }
+}
+
+.grad1{
+  height: 90%;
+  width: 700px;
+  border: 0px;
+  border-radius: 50%;
+  background-color: #39179e73;
+  filter: blur(290px);
+  top: 0px;
+  overflow-x: hidden;
+  transform: translate(0%,-50%);
+  z-index: -5;
+  overflow: hidden;
+}
+
+.grad2{
+  height: 30%;
+  width: 50%;
+  background-color: #8cc2d940;
+  filter: blur(1000px);
+  bottom: 0px;
+  left: 0px;
+  z-index: -5;
+}
+.grad3{
+  height: 70%;
+  width: 50%;
+  background-color: #52b69a65;
+  filter: blur(1000px);
+  z-index: -5;
+  top: 0;
+  left: 0;
+}
+.grad4{
+  height: 60%;
+  width: 60%;
+  position: relative;
+  background-color: #52b69a40;
+  filter: blur(1000px);
+  z-index: -4;
+  bottom: 0;
+  right: 0;
 }

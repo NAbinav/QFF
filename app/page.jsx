@@ -20,7 +20,7 @@ const TileLayer = dynamic(
 
 const Page = () => {
   return (
-    <div className="sm:text-xs flex flex-col gap-40" id="home">
+    <div className="sm:text-xs flex flex-col gap-40 " id="home">
       <div className="h-full snap-center items-start justify-center">
         <Home />
       </div>
