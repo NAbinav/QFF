@@ -43,7 +43,7 @@ body {
   font-weight: bold;
 }
 .Navbar{
-  z-index: 999;
+  z-index: 10;
 }
 .register{
   background: linear-gradient(120deg,rgba(61, 106, 255, 0.568),rgba(255, 56, 212, 0.532));
