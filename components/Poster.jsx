@@ -2,9 +2,6 @@ import React from "react";
 import Image from "next/image";
 import poster from "../public/image.png";
 const Poster = () => {
-  showModal
-    ? (parent.document.body.style.overflow = "hidden")
-    : (parent.document.body.style.overflow = "auto");
   return (
     <div className="flex flex-col justify-center gap-5">
       <div className="heading text-6xl text-center">POSTER</div>
