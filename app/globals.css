@@ -38,8 +38,20 @@ body {
   background-clip: text;
   font-weight: bold;
 }
+.register:hover{
+  background: linear-gradient(120deg,rgb(61, 107, 255),rgba(255, 56, 212, 0.97));
+  font-weight: bold;
+}
 .Navbar{
   z-index: 999;
+}
+.register{
+  background: linear-gradient(120deg,rgba(61, 106, 255, 0.568),rgba(255, 56, 212, 0.532));
+  font-weight: bold;
+  cursor: pointer;
+  padding: 9px;
+  border-radius: 5px;
+  transform: translateY(-200%);
 }
 .ul{
   display: flex;
@@ -55,9 +67,10 @@ body {
   content: "";
 }
 .li:hover{
-  color: rgb(0 0 0 / 10%);
+  color: rgb(0 0 0);
+  border-radius: 15px;
   background: linear-gradient(120deg,rgb(61, 107, 255),rgba(255, 56, 212, 0.97));
-  background-clip: text;
+  font-weight: 400;
 }
 .Logo{
   position: absolute;

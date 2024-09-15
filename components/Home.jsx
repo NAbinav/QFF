@@ -15,13 +15,19 @@ export default function Home() {
           <div className="Home z-50">
             <h1 className="text-6xl max-sm:text-4xl overflow-hidden">
               Welcome to
-              <span className="">
-                <p className="heading text-5xl">Qiskit Fall Fest 2024</p>
-              </span>
+              <p className="heading font-extrabold text-5xl ">
+                Qiskit Fall Fest 2024
+              </p>
+              <p className="text-xl">Oct 1-5 2024</p>
               <div className="grad1   -translate-x-96 overflow-hidden fixed"></div>
               <div className="grad2 overflow-hidden fixed"></div>
             </h1>
-            <Typed />
+            <div className="flex">
+              <Typed />
+              <div className="text-lg fixed font-thin right-48 register">
+                REGISTER
+              </div>
+            </div>
           </div>
         </motion.div>
       </div>
