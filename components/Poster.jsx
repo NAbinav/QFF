@@ -1,10 +1,7 @@
 import React from "react";
-import { useState } from "react";
-import Modal from "react-modal";
 import Image from "next/image";
 import poster from "../public/image.png";
 const Poster = () => {
-  const [showModal, setShowModal] = useState(false);
   showModal
     ? (parent.document.body.style.overflow = "hidden")
     : (parent.document.body.style.overflow = "auto");
