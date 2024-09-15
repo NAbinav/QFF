@@ -37,12 +37,12 @@ const Page = () => {
       <div className="flex justify-center my-10">
         <Poster />
       </div>
-      <div className="flex flex-col snap-center align-middle justify-center self-center gap-5 text">
-        <div className="text-6xl heading">MAP</div>
+      <div className="flex flex-col snap-center align-middle justify-center self-center gap-5 text ">
+        <div className="text-5xl heading text-center max-sm:text-3xl">MAP</div>
         <MapContainer
           center={[12.8422129, 80.1551188]}
-          zoom={17}
-          style={{ height: "500px", width: "600px", borderRadius: "20px" }}
+          zoom={16}
+          style={{ height: "300px", width: "300px", borderRadius: "20px" }}
           scrollWheelZoom={false}
         >
           <TileLayer
