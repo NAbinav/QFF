@@ -16,10 +16,10 @@ const Navbar = () => {
             <a href="#about">About</a>
           </div>
           <div className="ele li">
-            <a href="#teams">Team</a>
+            <a href="team">Team</a>
           </div>
           <div className="ele li">
-            <a href="">Sponsers</a>
+            <a href="">Sponsors</a>
           </div>
           <div className="ele li">
             <a href="https://vitchennaievents.com/">Register</a>
