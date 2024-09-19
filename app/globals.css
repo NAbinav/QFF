@@ -241,7 +241,7 @@ li:nth-child(2n) .card{
     background-image: url('../public/bg\ phone.png');
     backdrop-filter: "brightness(10px)";
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:contain;
     background-position-y: 100%;
   }
   li:hover{
