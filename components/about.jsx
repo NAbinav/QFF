@@ -2,7 +2,7 @@ import React from "react";
 
 const about = () => {
   return (
-    <div className="about text-justify m-24">
+    <div className="about text-justify m-24 max-sm:m-2">
       <p className="heading text-5xl">ABOUT THE EVENT</p>
       <br />
       <br />

@@ -6,6 +6,7 @@ import Partner from "@/components/partners";
 import About from "@/components/about";
 import Cards from "@/components/Card";
 import Speaker from "@/components/speaker";
+import { motion, spring } from "framer-motion";
 import "leaflet/dist/leaflet.css";
 
 // Dynamically import MapContainer and disable SSR
@@ -24,9 +25,27 @@ const Page = () => {
       <div className="h-full snap-center items-start justify-center">
         <Home />
       </div>
-      <About />
-      <Partner />
-      <div className="flex gap-10 flex-col justify-center my-10" id="events">
+      <div id="about">
+        <motion.div
+          className=""
+          initial={{ x: "-100%", filter: "blur(10px)" }}
+          whileInView={{ x: "0", filter: "blur(0px)" }}
+          transition={spring}
+        >
+          <About />
+        </motion.div>
+      </div>
+      <div id="partner">
+        <motion.div
+          className=""
+          initial={{ x: "-100%", filter: "blur(10px)" }}
+          whileInView={{ x: "0", filter: "blur(0px)" }}
+          transition={spring}
+        >
+          <Partner />
+        </motion.div>
+      </div>
+      <div className="flex gap-10 flex-col justify-center my-10" id="schedule">
         <p className="text-6xl p-10 heading">SCHEDULE</p>
         <div className="text-lg m-12 text-justify font-thin">
           Qiskit Fall Fest is the world’s largest collection of student-run
@@ -43,14 +62,16 @@ const Page = () => {
           <Cards />
         </div>
       </div>
-      <div className="flex justify-center my-10">
+      <div className="flex justify-center my-10" id="speaker">
         <Speaker />
       </div>
-      {/* <div className="flex justify-center my-10">
-        <Poster />
-      </div> */}
       <div className="flex flex-col snap-center align-middle justify-center self-center gap-5 text ">
-        <div className="text-5xl heading text-center max-sm:text-3xl">MAP</div>
+        <div
+          className="text-5xl heading text-center max-sm:text-3xl"
+          id="venue"
+        >
+          VENUE
+        </div>
         <div className="flex max-sm:flex-col justify-around gap-16">
           <div className="text-lg  max-sm:text-lg">
             <p className="text-lg">Address:</p>

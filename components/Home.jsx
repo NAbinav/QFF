@@ -6,7 +6,7 @@ export default function Home() {
       <div className="">
         <motion.div
           className=""
-          initial={{ x: "-100%", filter: "blur(10px)" }}
+          initial={{ x: "-10%", filter: "blur(40px)" }}
           whileInView={{ x: "0", filter: "blur(0px)" }}
           transition={spring}
         >

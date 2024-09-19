@@ -107,7 +107,7 @@ body {
     height: 100dvh;
     font-size: larger;
 }
-.box{
+/* .box{
   align-items: center;
   margin: 5px;
   margin-top: 20px;
@@ -121,7 +121,7 @@ body {
   position: fixed;
   right: 8%;
   z-index: 999;
-}
+} */
 .eventlist{
   display: flex;
   flex-direction: column;
@@ -193,6 +193,9 @@ li:nth-child(2n) .card{
   font-weight: 300;
   background: rgba(255, 255, 255, 0.416);
 }
+.drop{
+  background-color: #333;
+}
 .dialogue{
   background: linear-gradient(120deg,rgba(61, 106, 255, 0.24),rgba(255, 56, 212, 0.263));
   backdrop-filter: blur(10px);
@@ -213,11 +216,20 @@ li:nth-child(2n) .card{
 .map{
   color: #333; text-decoration: underline; font-size: 14px; font-family: Arial, Helvetica, sans-serif; text-align: right;
 }
+#first{
+  padding-top: 30%;
+}
 .mapp{
   color: #333; font-size: 14px; font-family: Arial, Helvetica, sans-serif; text-align: right; padding: 10px;
 }
 @media only screen and (max-width: 640px) {
   /* For mobile phones: */
+  .li:hover{
+    color: rgb(255, 255, 255);
+    border-radius: 0px;
+    background: transparent;
+    font-weight: 300;
+  }
   .Home{
     display: flex;
     flex-direction: column;
