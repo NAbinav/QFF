@@ -51,7 +51,6 @@ body {
   cursor: pointer;
   padding: 9px;
   border-radius: 5px;
-  transform: translateY(-200%);
 }
 .ul{
   display: flex;
@@ -301,14 +300,13 @@ table{
   border-spacing:0;
 }
 .tg td{
-  border-color:black;
-  border-style:solid;
-  border-width:1px;
+  border-right:1px solid white;
   font-family:Arial, sans-serif;
   font-size:14px;
   overflow:hidden;
   padding:10px 20px;
   word-break:normal;
+  text-align: center;
 }
 .tg th{
   border-color:white;
@@ -318,8 +316,9 @@ table{
   font-size:14px;
   font-weight:normal;
   overflow:hidden;
-  padding:10px 20px;
+  padding:20px 20px;
   word-break:normal;
+  text-align: center;
 }
 .tg .tg-0lax{
   text-align:left;

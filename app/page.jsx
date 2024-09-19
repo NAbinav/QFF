@@ -6,6 +6,7 @@ import Partner from "@/components/partners";
 import About from "@/components/about";
 import Table from "@/components/table";
 import Speaker from "@/components/speaker";
+import Card from "@/components/Card";
 import "leaflet/dist/leaflet.css";
 
 // Dynamically import MapContainer and disable SSR
@@ -39,8 +40,12 @@ const Page = () => {
           workshops and hackathons at the VIT Chennai campus. With open arms, we
           welcome you to the event and are hoping to see you there!!
         </div>
-        <div className="flex  justify-center">
+        <div className="flex  justify-center  max-sm:hidden">
           <Table></Table>
+        </div>
+
+        <div className="hidden max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:self-center">
+          <Card></Card>
         </div>
       </div>
       <div className="flex justify-center my-10">
@@ -51,8 +56,8 @@ const Page = () => {
       </div> */}
       <div className="flex flex-col snap-center align-middle justify-center self-center gap-5 text ">
         <div className="text-5xl heading text-center max-sm:text-3xl">MAP</div>
-        <div className="flex justify-around gap-16">
-          <div className="text-lg  max-sm:text-3xl">
+        <div className="flex justify-around gap-16 max-sm:flex-col max-sm:text-lg">
+          <div className="text-lg  max-sm:text-lg">
             <p className="text-lg">Address:</p>
             <br />
             Vellore Institute of Technology - Chennai, <br />
@@ -71,7 +76,7 @@ const Page = () => {
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
           </MapContainer>
-          <div className="text-lg text-justify max-sm:text-3xl w-96">
+          <div className="text-lg text-justify max-sm:text-lg w-96">
             <p className="text-lg text-justify">Contact:</p>
             <br />
             9876543210
