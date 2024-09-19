@@ -41,13 +41,13 @@ const About = () => {
           </div>
         </div>
       </motion.div>
-      <div className="flex snap-center align-middle justify-around max-sm:flex-col">
-        <motion.div
-          className=""
-          initial={{ x: "-10%", filter: "blur(40px)" }}
-          whileInView={{ x: "0", filter: "blur(0px)" }}
-          transition={spring}
-        >
+      <motion.div
+        className=""
+        initial={{ x: "-10%", filter: "blur(40px)" }}
+        whileInView={{ x: "0", filter: "blur(0px)" }}
+        transition={spring}
+      >
+        <div className="flex snap-center align-middle justify-around max-sm:flex-col">
           <div className="text-[200px] w-[288px] text-4xl max-sm:w-40 flex justify-center">
             <SiQiskit className=" text-white" />
           </div>
@@ -66,8 +66,8 @@ const About = () => {
               developing quantum algorithms.
             </p>
           </div>
-        </motion.div>
-      </div>
+        </div>
+      </motion.div>
     </div>
   );
 };
