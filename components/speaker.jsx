@@ -2,6 +2,7 @@ import React from "react";
 import Profile from "@/components/speaker_profile";
 import p2 from "@/public/speaker1.jpg";
 import p3 from "@/public/speaker2.jpg";
+import { Linkedin } from "lucide-react";
 const Team = () => {
   return (
     <div>
@@ -13,6 +14,9 @@ const Team = () => {
               name: "Pawel Gora",
               dept: "University of Warsaw",
               profile: p2,
+              x: "https://x.com/PawelGora",
+              meta: "https://www.facebook.com/gora.pawel",
+              scholar: "https://scholar.google.pl/citations?user=GbZr2MQAAAAJ",
             }}
           />
           <Profile
@@ -20,6 +24,8 @@ const Team = () => {
               name: "Alain Chancé",
               dept: "Founder CEO Alainquant LLC",
               profile: p3,
+              linkedin: "https://www.linkedin.com/in/alainchance/",
+              x: "https://x.com/Alain_Chance",
             }}
           />
         </div>

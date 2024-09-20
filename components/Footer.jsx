@@ -82,7 +82,7 @@ export default function ContactSection() {
             </div>
             <div className="flex flex-col mt-4 gap-5">
               <a
-                href="https://www.instagram.com/yourprofile"
+                href="https://www.instagram.com/the_quantumplators"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 "
@@ -91,8 +91,7 @@ export default function ContactSection() {
                 @the_quantumplators
               </a>
               <a
-                href="http://www.linkedin.com/
-company/quantumplators"
+                href="http://www.linkedin.com/company/quantumplators"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 "

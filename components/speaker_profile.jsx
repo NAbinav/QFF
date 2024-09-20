@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Twitter, Facebook, Linkedin } from "lucide-react";
+import { SiGooglescholar } from "react-icons/si";
 const profile = ({ props }) => {
   return (
     <div className=" max-sm:max-w-72 max-sm:snap-center m-4 -mx-0 profilecard flex flex-col snap-center max-sm:justify-center align-middle text-center items-center font-[300] text-base gap-5  h-[300px] w-[300px] border-[0px] bsorder-white bsg-[rgba(255,255,255,0.1)] rounded-xl group hhover:bg-gradient-to-r hhover:from-[rgb(61,106,255,0.14)] hhover:to-[rgb(255,56,212,0.163)] max-sm:h-28 max-sm:w-full max-sm:min-w-40    max-sm:flex-row profilecard">
@@ -19,15 +20,34 @@ const profile = ({ props }) => {
           {props.dept}
         </p>
         <div className="flex justify-around">
-          <a href="https://www.x.com">
-            <Twitter className="p-[1px] cursor-pointer group-hover:text-lg" />
-          </a>
-          <a href="https://www.facebook.com">
-            <Facebook className="p-[1px] cursor-pointer group-hover:text-lg" />
-          </a>
-          <a href="https://www.linkedin.com">
-            <Linkedin className="p-[1px] cursor-pointer group-hover:text-lg" />
-          </a>
+          {props.x ? (
+            <a href={props.x}>
+              <Twitter className="p-[1px] cursor-pointer group-hover:text-lg" />
+            </a>
+          ) : (
+            <></>
+          )}
+          {props.meta ? (
+            <a href={props.meta}>
+              <Facebook className="p-[1px] cursor-pointer group-hover:text-lg" />
+            </a>
+          ) : (
+            <></>
+          )}
+          {props.linkedin ? (
+            <a href={props.linkedin}>
+              <Linkedin className="p-[1px] cursor-pointer group-hover:text-lg" />
+            </a>
+          ) : (
+            <></>
+          )}
+          {props.scholar ? (
+            <a href={props.scholar}>
+              <SiGooglescholar className="p-[1px] cursor-pointer group-hover:text-lg" />
+            </a>
+          ) : (
+            <></>
+          )}
         </div>
       </div>
     </div>
