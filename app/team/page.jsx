@@ -1,10 +1,11 @@
 "use client";
 import React from "react";
 import Profile from "../../components/profile";
+import p1 from "@/public/profile1.jpg";
 import p2 from "@/public/profile2.jpg";
 import p3 from "@/public/profile3.png";
 import p4 from "@/public/profile4.jpg";
-import p5 from "@/public/profile5.jpg";
+import p6 from "@/public/profile6.jpg";
 import { motion, spring } from "framer-motion";
 const Team = () => {
   return (
@@ -21,6 +22,9 @@ const Team = () => {
               name: "Kailash Shankar",
               dept: "Designing Lead",
               profile: p4,
+              linkedin:
+                "https://www.linkedin.com/in/ashwin-sivakumar-a8b868120/",
+              github: "https://github.com/AshwinSivakumar",
             }}
           />
           <Profile
@@ -28,6 +32,9 @@ const Team = () => {
               name: "Aurum Joshi",
               dept: "Project Lead",
               profile: p2,
+              linkedin:
+                "https://www.linkedin.com/in/ashwin-sivakumar-a8b868120/",
+              github: "https://github.com/AshwinSivakumar",
             }}
           />
           <Profile
@@ -35,13 +42,29 @@ const Team = () => {
               name: "Rithika",
               dept: "Vice Captain",
               profile: p3,
+              linkedin: "https://www.linkedin.com/in/rithika-n--",
+              github: "https://github.com/AshwinSivakumar",
+              insta: false,
             }}
           />
           <Profile
             props={{
-              name: "xxxx",
+              name: "Ashwin Sivakumar",
               dept: "yyyyyy",
-              profile: p5,
+              profile: p1,
+              linkedin:
+                "https://www.linkedin.com/in/ashwin-sivakumar-a8b868120/",
+              github: "https://github.com/AshwinSivakumar",
+            }}
+          />
+          <Profile
+            props={{
+              name: "Nandan Patel",
+              dept: "Vice Captain",
+              profile: p6,
+              linkedin:
+                "https://www.linkedin.com/in/ashwin-sivakumar-a8b868120/",
+              github: "https://github.com/AshwinSivakumar",
             }}
           />
         </div>

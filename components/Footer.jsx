@@ -23,18 +23,28 @@ export default function ContactSection() {
           {/* Left - Contact Info */}
           <div className="w-full md:w-1/3 p-4 shadow-lg rounded-lg">
             <h2 className="text-2xl font-bold mb-4 heading">CONTACT US</h2>
-            <div className="mb-4">
-              <h3 className="font-semibold font-xl mb-4">
-                STUDENT COORDINATOR
-              </h3>
-              <p>Student1</p>
-              <p>Email: stu1@gmail.com</p>
-              <p>Phone: 9876543210</p>
-            </div>
-            <div className="mb-4">
-              <p>Student2</p>
-              <p>Email: stu2@gmail.com</p>
-              <p>Phone: 9876543210</p>
+            <h3 className="font-semibold font-xl mb-4">STUDENT COORDINATOR</h3>
+            <div className="flex gap-7">
+              <div>
+                <div className="mb-4">
+                  <p>Nandan Patel</p>
+                  <p>9099906520</p>
+                </div>
+                <div className="mb-4">
+                  <p>Ashwin Sivakumar</p>
+                  <p>6360910426</p>
+                </div>
+              </div>
+              <div>
+                <div className="mb-4">
+                  <p>Hari Shankar K Nair</p>
+                  <p>6282382764</p>
+                </div>
+                <div className="mb-4">
+                  <p>Rithika N</p>
+                  <p>9345459249</p>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -70,22 +80,23 @@ export default function ContactSection() {
                 <GrLinkNext />
               </a>
             </div>
-            <div className="flex mt-4 space-x-4">
+            <div className="flex flex-col mt-4 gap-5">
               <a
                 href="https://www.instagram.com/yourprofile"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-700 hover:text-pink-500"
               >
-                <FaInstagram size={30} />
+                <FaInstagram size={30} /> @the_quantumplators
               </a>
               <a
-                href="https://www.linkedin.com/in/yourprofile"
+                href="http://www.linkedin.com/
+company/quantumplators"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-700 hover:text-blue-500"
               >
-                <FaLinkedinIn size={30} />
+                <FaLinkedinIn size={30} /> quantumplators
               </a>
             </div>
           </div>

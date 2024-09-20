@@ -19,13 +19,13 @@ const profile = ({ props }) => {
           {props.dept}
         </p>
         <div className="flex justify-around">
-          <a href="https://www.github.com">
+          <a href={props.github}>
             <Github className="p-[1px] cursor-pointer group-hover:text-lg" />
           </a>
           <a href="https://www.instagram.com">
             <Instagram className="p-[1px] cursor-pointer group-hover:text-lg" />
           </a>
-          <a href="https://www.linkedin.com">
+          <a href={props.linkedin}>
             <Linkedin className="p-[1px] cursor-pointer group-hover:text-lg" />
           </a>
         </div>

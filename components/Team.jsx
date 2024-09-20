@@ -3,7 +3,7 @@ import Profile from "./profile";
 import p2 from "@/public/profile2.jpg";
 import p3 from "@/public/profile3.png";
 import p4 from "@/public/profile4.jpg";
-import p5 from "@/public/profile5.jpg";
+import p6 from "@/public/profile6.jpg";
 const Team = () => {
   return (
     <div className="flex max-sm:flex-col">
@@ -25,16 +25,16 @@ const Team = () => {
         />
         <Profile
           props={{
-            name: "Rithika",
+            name: "Nandan Patel",
             dept: "Vice Captain",
-            profile: p3,
+            profile: p6,
           }}
         />
         <Profile
           props={{
-            name: "xxxx",
-            dept: "yyyyyy",
-            profile: p5,
+            name: "Rithika",
+            dept: "Vice Captain",
+            profile: p3,
           }}
         />
       </div>

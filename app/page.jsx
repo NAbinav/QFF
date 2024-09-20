@@ -53,9 +53,9 @@ const Page = () => {
       <div className="flex justify-center my-10" id="speaker">
         <Speaker />
       </div>
-      <div className="flex flex-col snap-center align-middle justify-center self-center gap-5 text ">
+      <div className="flex flex-col snap-center align-middle justify-center self-center text ">
         <div
-          className="text-5xl heading text-center max-sm:text-3xl"
+          className="text-3xl heading text-center max-sm:text-3xl"
           id="venue"
         >
           VENUE
