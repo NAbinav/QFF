@@ -124,9 +124,6 @@ const Navbar = () => {
             <a href="/team">Team</a>
           </div>
           <div className="ele li">
-            <a href="">Sponsers</a>
-          </div>
-          <div className="ele li">
             <a href="https://vitchennaievents.com/">Register</a>
           </div>
         </ul>
