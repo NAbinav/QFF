@@ -6,7 +6,6 @@ import About from "@/components/about";
 import Cards from "@/components/Card";
 import Speaker from "@/components/speaker";
 import Footer from "@/components/Footer";
-import Image from "next/image";
 import { motion, spring } from "framer-motion";
 const Page = () => {
   return (
