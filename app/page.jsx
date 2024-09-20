@@ -6,11 +6,20 @@ import About from "@/components/about";
 import Cards from "@/components/Card";
 import Speaker from "@/components/speaker";
 import Footer from "@/components/Footer";
+import Image from "next/image";
+import Bg from "@/public/bg.png";
 import { motion, spring } from "framer-motion";
 const Page = () => {
   return (
     <div className="sm:text-xs flex flex-col gap-40 " id="home">
-      <div className="h-full snap-center items-start justify-center">
+      <div className="h-full snap-center items-start justify-center Home">
+        {/* <Image
+          src={Bg}
+          height={5400}
+          width={9600}
+          className="h-full  absolute"
+          style={{ width: "100%" }}
+        ></Image> */}
         <Home />
       </div>
       <div id="about">

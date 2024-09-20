@@ -91,10 +91,6 @@ body {
   align-self: center;
   width: 100dvw;
   font-size: larger;
-  background-image: url('../public/bg.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: 100%;
 }
 .home{
     display: flex;
@@ -105,6 +101,13 @@ body {
     margin-left: 5%;
     height: 100dvh;
     font-size: larger;
+} 
+#home{
+  background: url('../public/bg.png');
+  background-position: center;
+  height: 100dvh;
+  width: 100dvw;
+  background-repeat: no-repeat;
 }
 /* .box{
   align-items: center;
@@ -223,13 +226,20 @@ li:nth-child(2n) .card{
 }
 @media only screen and (max-width: 640px) {
   /* For mobile phones: */
+  #home{
+    background: url('../public/bg phone.png');
+    height: 100dvh;
+    width: 100dvw;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .li:hover{
     color: rgb(255, 255, 255);
     border-radius: 0px;
     background: transparent;
     font-weight: 300;
   }
-  .Home{
+  /* .Home{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -243,7 +253,7 @@ li:nth-child(2n) .card{
     background-size: fill;
     background-position: 100%;
     height: 100dvh;
-  }
+  } */
   li:hover{
     color: white;
   }
