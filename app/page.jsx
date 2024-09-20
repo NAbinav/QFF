@@ -7,7 +7,6 @@ import Cards from "@/components/Card";
 import Speaker from "@/components/speaker";
 import Footer from "@/components/Footer";
 import Image from "next/image";
-import Bg from "@/public/bg.png";
 import { motion, spring } from "framer-motion";
 const Page = () => {
   return (
