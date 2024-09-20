@@ -26,9 +26,13 @@ const profile = ({ props }) => {
             {props.dept}
           </p>
           <div className="flex justify-around">
-            <a href={props.github}>
-              <Github className="p-[1px] cursor-pointer group-hover:text-lg" />
-            </a>
+            {props.github ? (
+              <a href={props.github}>
+                <Github className="p-[1px] cursor-pointer group-hover:text-lg" />
+              </a>
+            ) : (
+              <></>
+            )}
             {props.insta ? (
               <a href={props.insta}>
                 <Instagram className="p-[1px] cursor-pointer group-hover:text-lg" />

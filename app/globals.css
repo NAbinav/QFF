@@ -103,7 +103,9 @@ body {
     font-size: larger;
 } 
 #home{
-  background: url('../public/bg.png');
+  background: 
+    linear-gradient(rgba(255, 255, 255, 0),rgb(0,0,0,0.1),rgb(0,0,0,0.2),rgb(0,0,0,0.3),rgb(0,0,0,0.4),rgb(0, 0, 0)), 
+    url('../public/bg.png');
   background-position: center;
   height: 100dvh;
   width: 100dvw;
@@ -227,7 +229,9 @@ li:nth-child(2n) .card{
 @media only screen and (max-width: 640px) {
   /* For mobile phones: */
   #home{
-    background: url('../public/bg phone.png');
+    background: 
+    linear-gradient(rgba(255, 255, 255, 0),rgb(0,0,0,0.1),rgb(0,0,0,0.2),rgb(0,0,0,0.4),rgb(0,0,0,0.5),rgb(0, 0, 0)), 
+    url('../public/bg phone.png');
     background-repeat: no-repeat;
     height: 100dvh;
     width: 100dvw;
