@@ -11,7 +11,7 @@ const Team = () => {
   return (
     <div className="flex flex-grow flex-wrap self-center text-center justify-center max-w-4xl max-sm:justify-center max-sm:flex-col max-sm:text-center max-sm:snap-center align-middle max-sm:self-center max-sm:items-center my-14">
       <motion.div
-        initial={{ x: "-100%", filter: "blur(10px)" }}
+        initial={{ x: "-10%", filter: "blur(40px)" }}
         whileInView={{ x: "0", filter: "blur(0px)" }}
         transition={spring}
         className="flex max-sm:flex-col justify-center "
