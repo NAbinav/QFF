@@ -3,7 +3,7 @@ import React from "react";
 const about = () => {
   return (
     <div className="about text-justify m-24 max-sm:m-2">
-      <p className="heading text-5xl">ABOUT THE EVENT</p>
+      <p className="heading text-5xl text-left">ABOUT THE EVENT</p>
       <br />
       <br />
       <p className="text-lg font-light">
