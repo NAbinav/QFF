@@ -2,7 +2,6 @@ import React from "react";
 import Profile from "@/components/speaker_profile";
 import p2 from "@/public/speaker1.jpg";
 import p3 from "@/public/speaker2.jpg";
-import { Linkedin } from "lucide-react";
 const Team = () => {
   return (
     <div>
