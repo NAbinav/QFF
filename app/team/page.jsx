@@ -9,7 +9,7 @@ import p6 from "@/public/profile6.jpg";
 import p7 from "@/public/profile7.jpg";
 import p8 from "@/public/profile8.jpg";
 import p9 from "@/public/profile9.jpg";
-import p10 from "@/public/profile10.jpg";
+import p10 from "@/public/profile10.png";
 import { motion, spring } from "framer-motion";
 const Team = () => {
   return (
