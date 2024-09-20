@@ -89,8 +89,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-self: center;
-  row-gap: 2rem;
-  height: 100dvh;
+  width: 100dvw;
   font-size: larger;
   background-image: url('../public/bg.png');
   background-repeat: no-repeat;
@@ -241,7 +240,8 @@ li:nth-child(2n) .card{
     backdrop-filter: "brightness(10px)";
     background-repeat: no-repeat;
     background-size:100%;
-    background-position-y: 100%;
+
+    background-position: 100%;
   }
   li:hover{
     color: white;
