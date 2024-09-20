@@ -121,7 +121,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="ele li">
-            <a href="/#teams">Team</a>
+            <a href="/teams">Team</a>
           </div>
           <div className="ele li">
             <a href="">Sponsers</a>
