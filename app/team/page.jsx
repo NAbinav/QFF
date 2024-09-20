@@ -4,12 +4,12 @@ import Profile from "../../components/profile";
 import p1 from "@/public/profile1.jpg";
 import p2 from "@/public/profile2.jpg";
 import p3 from "@/public/profile3.png";
-import p4 from "@/public/profile4.jpg";
 import p5 from "@/public/profile5.jpg";
 import p6 from "@/public/profile6.jpg";
 import p7 from "@/public/profile7.jpg";
 import p8 from "@/public/profile8.jpg";
 import p9 from "@/public/profile9.jpg";
+import p10 from "@/public/profile10.jpg";
 import { motion, spring } from "framer-motion";
 const Team = () => {
   return (
@@ -66,7 +66,7 @@ const Team = () => {
             props={{
               name: "Kashish Mahendra",
               dept: "Team Manager",
-              profile: p4,
+              profile: p10,
               linkedin: "https://www.linkedin.com/in/kashish-mahendra2004/",
               github: "https://github.com/Kashish2705",
             }}
