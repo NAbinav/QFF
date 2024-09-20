@@ -26,7 +26,7 @@ const About = () => {
             <p>
               <br />
             </p>
-            <p className="text-lg font-light ">
+            <p className="text-lg font-light text-justify">
               Introducing Quantumplators, the pioneering Quantum Computing
               Special Team at VIT Chennai.
               <br />
@@ -58,7 +58,7 @@ const About = () => {
             <p>
               <br />
             </p>
-            <p className="text-lg font-light">
+            <p className="text-lg font-light text-justify">
               Qiskit is an open-source framework developed by IBM for quantum
               computing. It allows users to create and run quantum programs on
               both simulators and real quantum hardware. Qiskit includes tools

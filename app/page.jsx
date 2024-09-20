@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 import { motion, spring } from "framer-motion";
 const Page = () => {
   return (
-    <div className="sm:text-xs flex flex-col gap-40 " id="home">
+    <div className="sm:text-xs flex flex-col gap-16 " id="home">
       <div className="h-full snap-center items-start justify-center Home">
         {/* <Image
           src={Bg}
