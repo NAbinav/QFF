@@ -14,7 +14,7 @@ const Navbar = () => {
     <>
       <div className="hidden sm:block overflow-hidden">
         <div className="ul font-light  rounded-xl">
-          <a className="ele li h-fit backdrop-blur-sm rounded-sm" href="#home">
+          <a className="ele li h-fit backdrop-blur-sm rounded-sm" href="/#home">
             Home
           </a>
           <div className="ele">
@@ -28,25 +28,25 @@ const Navbar = () => {
               <MdArrowDropDown className="flex justify-center self-center text-xl" />
             </div>
             <div className={box + "flex flex-col gap-2 bg-[rgb(0,0,0,0.5)] "}>
-              <a className={cla + "m-[1px]"} href="#about">
+              <a className={cla + "m-[1px]"} href="/#about">
                 About
               </a>
               <a
-                href="#partner"
+                href="/#partner"
                 className={cla + " bg-transparent m-[1px] text-left"}
               >
                 Partners
               </a>
               <a
-                href="#schedule"
+                href="/#schedule"
                 className={cla + " bg-transparent m-[1px] text-left"}
               >
                 Schedule
               </a>
-              <a href="#speaker" className={cla + " bg-transparent text-left"}>
+              <a href="/#speaker" className={cla + " bg-transparent text-left"}>
                 Speakers
               </a>
-              <a href="#venue" className={cla + " bg-transparent text-left"}>
+              <a href="/#venue" className={cla + " bg-transparent text-left"}>
                 Venue
               </a>
             </div>
@@ -84,7 +84,7 @@ const Navbar = () => {
         </ul>
         <ul className={cl + "font-light "}>
           <div className="ele li" id="first">
-            <a href="#home">Home</a>
+            <a href="/#home">Home</a>
           </div>
           <div className="ele">
             <div
@@ -97,31 +97,31 @@ const Navbar = () => {
               <MdArrowDropDown className="flex justify-center self-center text-xl" />
             </div>
             <div className={box + "flex flex-col gap-2 bg-[rgb(0,0,0,0.5)] "}>
-              <a className={cla + "m-[1px]"} href="#about">
+              <a className={cla + "m-[1px]"} href="/#about">
                 About
               </a>
               <a
-                href="#partner"
+                href="/#partner"
                 className={cla + " bg-transparent m-[1px] text-left"}
               >
                 Partners
               </a>
               <a
-                href="#schedule"
+                href="/#schedule"
                 className={cla + " bg-transparent m-[1px] text-left"}
               >
                 Schedule
               </a>
-              <a href="#speaker" className={cla + " bg-transparent text-left"}>
+              <a href="/#speaker" className={cla + " bg-transparent text-left"}>
                 Speakers
               </a>
-              <a href="#venue" className={cla + " bg-transparent text-left"}>
+              <a href="/#venue" className={cla + " bg-transparent text-left"}>
                 Venue
               </a>
             </div>
           </div>
           <div className="ele li">
-            <a href="#teams">Team</a>
+            <a href="/#teams">Team</a>
           </div>
           <div className="ele li">
             <a href="">Sponsers</a>

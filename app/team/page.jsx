@@ -23,7 +23,7 @@ const Team = () => {
               dept: "Designing Lead",
               profile: p4,
               linkedin:
-                "https://www.linkedin.com/in/ashwin-sivakumar-a8b868120/",
+                "https://www.linkedin.com/in/kailash-shankar-b5796b288/",
               github: "https://github.com/AshwinSivakumar",
             }}
           />
@@ -65,6 +65,7 @@ const Team = () => {
               linkedin:
                 "https://www.linkedin.com/in/ashwin-sivakumar-a8b868120/",
               github: "https://github.com/AshwinSivakumar",
+              insta: "https://www.instagram.com/np_2411/",
             }}
           />
         </div>

@@ -236,12 +236,11 @@ li:nth-child(2n) .card{
     justify-content: center;
     align-self: center;
     row-gap: 2rem;
-    height: 100dvh;
     font-size: larger;
     background-image: url('../public/bg\ phone.png');
     backdrop-filter: "brightness(10px)";
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:100%;
     background-position-y: 100%;
   }
   li:hover{

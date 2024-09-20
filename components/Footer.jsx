@@ -85,7 +85,7 @@ export default function ContactSection() {
                 href="https://www.instagram.com/yourprofile"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-700 hover:text-pink-500"
+                className="text-gray-500 hover:text-pink-500"
               >
                 <FaInstagram size={30} /> @the_quantumplators
               </a>
@@ -94,7 +94,7 @@ export default function ContactSection() {
 company/quantumplators"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-700 hover:text-blue-500"
+                className="text-gray-500 hover:text-blue-500"
               >
                 <FaLinkedinIn size={30} /> quantumplators
               </a>

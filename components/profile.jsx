@@ -22,9 +22,13 @@ const profile = ({ props }) => {
           <a href={props.github}>
             <Github className="p-[1px] cursor-pointer group-hover:text-lg" />
           </a>
-          <a href="https://www.instagram.com">
-            <Instagram className="p-[1px] cursor-pointer group-hover:text-lg" />
-          </a>
+          {props.insta ? (
+            <a href={props.insta}>
+              <Instagram className="p-[1px] cursor-pointer group-hover:text-lg" />
+            </a>
+          ) : (
+            <></>
+          )}
           <a href={props.linkedin}>
             <Linkedin className="p-[1px] cursor-pointer group-hover:text-lg" />
           </a>
