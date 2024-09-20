@@ -228,10 +228,8 @@ li:nth-child(2n) .card{
   /* For mobile phones: */
   #home{
     background: url('../public/bg phone.png');
-    height: 100dvh;
-    width: 100dvw;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
   }
   .li:hover{
     color: rgb(255, 255, 255);

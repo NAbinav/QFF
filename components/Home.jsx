@@ -2,7 +2,7 @@
 import { motion, spring } from "framer-motion";
 export default function Home() {
   return (
-    <div className="h-screen w-screen">
+    <div className="">
       <motion.div
         className=""
         initial={{ x: "-10%", filter: "blur(40px)" }}
