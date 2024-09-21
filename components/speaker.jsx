@@ -1,7 +1,8 @@
 import React from "react";
 import Profile from "@/components/speaker_profile";
 import p2 from "@/public/speaker1.jpg";
-import p3 from "@/public/speaker2.jpg";
+import p2 from "@/public/speaker1.jpg";
+import p1 from "@/public/speaker3.jpg";
 const Team = () => {
   return (
     <div>
@@ -25,6 +26,14 @@ const Team = () => {
               profile: p3,
               linkedin: "https://www.linkedin.com/in/alainchance/",
               x: "https://x.com/Alain_Chance",
+            }}
+          />
+          <Profile
+            props={{
+              name: "L Venkata Subramaniam",
+              dept: "IBM Quantum India Leader",
+              profile: p1,
+              linkedin: "https://www.linkedin.com/in/lvsubramaniam//",
             }}
           />
         </div>
