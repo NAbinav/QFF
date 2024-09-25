@@ -51,7 +51,7 @@ const Page = () => {
           past year, with experienced quantum scientists and budding young
           quantum enthusiasts collaborating to showcase their talents at the
           workshops and hackathons at the VIT Chennai campus. With open arms, we
-          welcome you to the event and are hoping to see you there!!
+          welcome you to the event and are hoping to see you there !!
         </div>
         <div className="flex justify-center self-center">
           <Cards />

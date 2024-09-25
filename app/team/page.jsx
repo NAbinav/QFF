@@ -10,6 +10,7 @@ import p7 from "@/public/profile7.jpg";
 import p8 from "@/public/profile8.jpg";
 import p9 from "@/public/profile9.jpg";
 import p10 from "@/public/profile10.png";
+import p11 from "@/public/profile11.png";
 import { motion, spring } from "framer-motion";
 const Team = () => {
   return (
@@ -108,6 +109,15 @@ const Team = () => {
               profile: p9,
               linkedin: "https://www.linkedin.com/in/abinav-n-351358320/",
               github: "https://github.com/NAbinav",
+            }}
+          />
+          <Profile 
+            props={{
+              name: "Revanth Kanna M",
+              dept:"Web Developer",
+              profile: p11,
+              linkedin: "https://www.linkedin.com/in/revanth-kanna-168ba6244/",
+              github:"https://github.com/rk-vit"
             }}
           />
         </div>
