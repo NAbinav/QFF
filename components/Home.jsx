@@ -24,19 +24,19 @@ export default function Home() {
             <img src="/badge.png"></img>
           </div> 
           <div className="three">
-  <div className="flex flex-col items-center justify-center gap-4"> {/* Aligns the date and button */}
-    <h1 className="text-6xl max-sm:text-4xl overflow-hidden">
-      October
-      <p className="heading font-extrabold text-5xl">1st - 4th</p>
-    </h1>
-    <a
-      href="https://vitchennaievents.com"
-      className="text-lg font-thin register"
-    >
-      REGISTER
-    </a>
-  </div>
-</div>
+            <div className="flex flex-col items-center justify-center gap-4"> {/* Aligns the date and button */}
+              <h1 className="text-6xl max-sm:text-4xl overflow-hidden">
+                October
+                <p className="heading font-extrabold text-5xl">1st - 4th</p>
+              </h1>
+              <a
+                href="https://vitchennaievents.com"
+                className="text-lg font-thin register"
+              >
+                REGISTER
+              </a>
+          </div>
+      </div>
         </div>
       </motion.div>
     </div>

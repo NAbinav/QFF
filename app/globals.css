@@ -270,7 +270,6 @@ li:nth-child(2n) .card{
     margin-left: 10px;
   }
 
-  /* Correcting layout of one, two, and three sections */
   .one, .two, .three {
     display: flex;
     flex-direction: column;
@@ -280,8 +279,8 @@ li:nth-child(2n) .card{
   }
 
   .two img {
-    width: 70%; /* Make image responsive */
-    max-width: 300px; /* Restrict max width */
+    width: 70%; 
+    max-width: 300px; 
     height: auto;
     margin-top: 30px;
   }
