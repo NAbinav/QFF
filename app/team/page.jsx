@@ -10,7 +10,6 @@ import p7 from "@/public/profile7.jpg";
 import p8 from "@/public/profile8.jpg";
 import p9 from "@/public/profile9.jpg";
 import p10 from "@/public/profile10.png";
-import p11 from "@/public/profile11.png";
 import raghavjain from "@/public/raghav_jain.jpeg"
 import muralikrishnanmani from "@/public/MuralikrishnanMani.jpeg"
 import shriramnarayanan from "@/public/ShriramNarayanan.jpeg"
