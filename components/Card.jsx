@@ -16,7 +16,7 @@ const Card = () => {
             transition={spring}
           >
             <div className="card text-center items-center ">
-              <p className="text-lg font-semibold">DAY-1 OCTOBER 1 2024</p>
+              <p className="text-lg font-semibold">DAY-1: OCTOBER 29, 2025</p>
               <p className="text-lg">
                 <span className="heading">Venue:</span> AB1 Nethaji Auditorium
               </p>
@@ -34,7 +34,7 @@ const Card = () => {
             transition={spring}
           >
             <div className=" card text-center items-center ">
-              <p className="text-lg font-semibold">DAY-2 OCTOBER 2 2024</p>
+              <p className="text-lg font-semibold">DAY-2: OCTOBER 30, 2025</p>
               <p className="text-lg">
                 <span className="heading">Venue:</span> Online - MS Teams
               </p>
@@ -52,30 +52,12 @@ const Card = () => {
             transition={spring}
           >
             <div className=" card text-center items-center ">
-              <p className="text-lg font-semibold">DAY-3 OCTOBER 3 2024</p>
+              <p className="text-lg font-semibold">DAY-3: OCTOBER 31, 2025</p>
               <p className="text-lg">
                 <span className="heading">Venue:</span> AB1 Nethaji Auditorium
               </p>
               <div className="p-2 m-2">
                 <Three />
-              </div>
-            </div>
-          </motion.div>
-        </li>
-        <li>
-          <motion.div
-            className=""
-            initial={{ x: "-10%", filter: "blur(40px)" }}
-            whileInView={{ x: "0", filter: "blur(0px)" }}
-            transition={spring}
-          >
-            <div className=" card text-center items-center ">
-              <p className="text-lg font-semibold">DAY-4 OCTOBER 4 2024</p>
-              <p className="text-lg">
-                <span className="heading">Venue:</span> Kasturba Auditorium
-              </p>
-              <div className="p-2 m-2">
-                <Four />
               </div>
             </div>
           </motion.div>
