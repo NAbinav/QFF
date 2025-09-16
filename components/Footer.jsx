@@ -106,7 +106,7 @@ export default function ContactSection() {
         {/* Footer */}
         <div className="mt-10 text-center">
           <p className="text-gray-600">
-            &copy; The Quantumplators 2023-24. All Rights Reserved.
+            &copy; The Quantumplators 2025-26. All Rights Reserved.
           </p>
         </div>
       </div>
