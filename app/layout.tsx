@@ -30,8 +30,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex`}
       >
-        <div className="ele Logo absolute">
-          <Image alt="hello" src={Logo} height={100} width={100}></Image>
+        <div className="ele Logo absolute pt-1 pl-1">
+          <Image alt="hello" src={Logo} height={80} width={80}></Image>
         </div>
         <div className="fixed right-2 z-50">
           <Navbar />

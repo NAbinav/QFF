@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 import { motion, spring } from "framer-motion";
 const Page = () => {
   return (
-    <div className="sm:text-xs flex flex-col gap-16 " id="home">
+    <div className="sm:text-xs flex flex-col gap-16" id="home">
       <div className="h-full snap-center items-start justify-center Home">
         {/* <Image
           src={Bg}
@@ -22,7 +22,7 @@ const Page = () => {
       </div>
       <div id="about">
         <motion.div
-          className=""
+          className=" px-[40px]"
           initial={{ x: "-100%", filter: "blur(10px)" }}
           whileInView={{ x: "0", filter: "blur(0px)" }}
           transition={spring}
@@ -32,7 +32,7 @@ const Page = () => {
       </div>
       <div id="partner">
         <motion.div
-          className=""
+          className=" px-[40px]"
           initial={{ x: "-100%", filter: "blur(10px)" }}
           whileInView={{ x: "0", filter: "blur(0px)" }}
           transition={spring}
@@ -40,7 +40,7 @@ const Page = () => {
           <Partner />
         </motion.div>
       </div>
-      <div className="flex gap-10 flex-col justify-center my-10" id="schedule">
+      <div className="flex gap-10 flex-col  px-[40px] pb-[100px] justify-center my-10 bg-[url('../public/bg2.png')] bg-cover " id="schedule">
         <p className="text-6xl p-10 heading">SCHEDULE</p>
         <div className="text-lg m-12 text-justify font-thin">
           Qiskit Fall Fest is the world’s largest collection of student-run
