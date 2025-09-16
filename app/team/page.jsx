@@ -11,7 +11,12 @@ import p8 from "@/public/profile8.jpg";
 import p9 from "@/public/profile9.jpg";
 import p10 from "@/public/profile10.png";
 import p11 from "@/public/profile11.png";
+import raghavjain from "@/public/raghav_jain.jpeg"
+import muralikrishnanmani from "@/public/MuralikrishnanMani.jpeg"
+import shriramnarayanan from "@/public/ShriramNarayanan.jpeg"
+import meghnaRaviumar from "@/public/MeghnaRavikumar.jpeg"
 import { motion, spring } from "framer-motion";
+// import { profile } from "console";
 const Team = () => {
   return (
     <div className="flex flex-grow flex-wrap self-center text-center justify-center max-w-screen max-sm:justify-center max-sm:flex-col max-sm:text-center max-sm:snap-center align-middle max-sm:self-center max-sm:items-center my-14">
@@ -104,22 +109,41 @@ const Team = () => {
           />
           <Profile
             props={{
-              name: "Abinav N",
-              dept: "Web Developer",
-              profile: p9,
-              linkedin: "https://www.linkedin.com/in/abinav-n-351358320/",
-              github: "https://github.com/NAbinav",
+              name: "Raghav Jain",
+              dept: "Co-Organizer",
+              profile:raghavjain
             }}
           />
-          <Profile 
+          <Profile
             props={{
-              name: "Revanth Kanna M",
-              dept:"Web Developer",
-              profile: p11,
-              linkedin: "https://www.linkedin.com/in/revanth-kanna-168ba6244/",
-              github:"https://github.com/rk-vit"
+              name: "Muralikrishnan Mani",
+              dept: "Co-Organizer",
+              profile:muralikrishnanmani
             }}
           />
+          <Profile
+            props={{
+              name: "Shriram Narayanan",
+              dept: "Co-Organizer",
+              profile:shriramnarayanan
+            }}
+          />
+          <Profile
+            props={{
+              name: "Meghna Ravikumar",
+              dept: "Co-Organizer",
+              profile:meghnaRaviumar
+            }}
+          />
+      <Profile
+        props={{
+          name: "Abinav N",
+          dept: "Web Developer",
+          profile: p9,
+          linkedin: "https://www.linkedin.com/in/abinav-n-351358320/",
+          github: "https://github.com/NAbinav",
+        }}
+      />
         </div>
       </motion.div>
     </div>

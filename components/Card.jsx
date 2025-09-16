@@ -2,7 +2,6 @@ import React from "react";
 import One from "./one";
 import Two from "./two";
 import Three from "./three";
-import Four from "./four";
 import { motion, spring } from "framer-motion";
 const Card = () => {
   return (
